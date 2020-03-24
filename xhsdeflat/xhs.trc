@@ -1,0 +1,133 @@
+(app_process32_xposed[0xAACA8000])[2D E9 00 0F ]0x48E61E64:     PUSH.W      {R8-R11}
+(app_process32_xposed[0xAACA8000])[89 B0 ]0x48E61E68: SUB    SP, SP, #0x24
+(app_process32_xposed[0xAACA8000])[05 46 ]0x48E61E6A: MOV    R5, R0
+(app_process32_xposed[0xAACA8000])[47 48 ]0x48E61E6C: LDR    R0, =(off_F3B77838 - 0xF3B09E76)
+(app_process32_xposed[0xAACA8000])[8A 46 ]0x48E61E6E: MOV    R10, R1
+(app_process32_xposed[0xAACA8000])[08 21 ]0x48E61E70: MOVS   R1, #8
+(app_process32_xposed[0xAACA8000])[78 44 ]0x48E61E72: ADD    R0, PC; off_F3B77838
+(app_process32_xposed[0xAACA8000])[93 46 ]0x48E61E74: MOV    R11, R2
+(app_process32_xposed[0xAACA8000])[0A F0 07 02 ]0x48E61E76: AND.W  R2, R10, #7
+(app_process32_xposed[0xAACA8000])[06 AC ]0x48E61E7A: ADD    R4, SP, #0x40+var_28
+(app_process32_xposed[0xAACA8000])[00 68 ]0x48E61E7C: LDR    R0, [R0]; __stack_chk_guard
+(app_process32_xposed[0xAACA8000])[00 68 ]0x48E61E7E: LDR    R0, [R0]
+(app_process32_xposed[0xAACA8000])[08 90 ]0x48E61E80: STR    R0, [SP,#0x40+var_20]
+(app_process32_xposed[0xAACA8000])[49 F6 1D 60 CF F2 62 30 ]0x48E61E82: MOV    R0, #0xF3629E1D
+(app_process32_xposed[0xAACA8000])[01 44 ]0x48E61E8A: ADD    R1, R0
+(app_process32_xposed[0xAACA8000])[89 1A ]0x48E61E8C: SUBS   R1, R1, R2
+(app_process32_xposed[0xAACA8000])[02 94 ]0x48E61E8E: STR    R4, [SP,#0x40+var_38]
+(app_process32_xposed[0xAACA8000])[08 1A ]0x48E61E90: SUBS   R0, R1, R0
+(app_process32_xposed[0xAACA8000])[41 F2 C7 31 CF F2 95 31 ]0x48E61E92: MOV    R1, #0xF39513C7
+(app_process32_xposed[0xAACA8000])[40 1A ]0x48E61E9A: SUBS   R0, R0, R1
+(app_process32_xposed[0xAACA8000])[50 44 ]0x48E61E9C: ADD    R0, R10
+(app_process32_xposed[0xAACA8000])[08 44 ]0x48E61E9E: ADD    R0, R1
+(app_process32_xposed[0xAACA8000])[02 99 ]0x48E61EA0: LDR    R1, [SP,#0x40+var_38]
+(app_process32_xposed[0xAACA8000])[B0 F1 FF 3F ]0x48E61EA2: CMP.W  R0, #0xFFFFFFFF
+(app_process32_xposed[0xAACA8000])[D8 BF ]0x48E61EA6: IT LE
+(app_process32_xposed[0xAACA8000])[4F F0 FF 30 ]0x48E61EA8: MOVLE.W   R0, #0xFFFFFFFF
+(app_process32_xposed[0xAACA8000])[AD F7 5A EC ]0x48E61EAC: BLX    unk_F3AB7764
+(app_process32_xposed[0xAACA8000])[CD E9 03 04 ]0x48E61EB0: STRD.W    R0, R4, [SP,#0xC]
+(app_process32_xposed[0xAACA8000])[28 46 ]0x48E61EB4: MOV    R0, R5
+(app_process32_xposed[0xAACA8000])[04 99 ]0x48E61EB6: LDR    R1, [SP,#0x40+var_30]
+(app_process32_xposed[0xAACA8000])[52 46 ]0x48E61EB8: MOV    R2, R10
+(app_process32_xposed[0xAACA8000])[01 95 ]0x48E61EBA: STR    R5, [SP,#0x40+var_3C]
+(app_process32_xposed[0xAACA8000])[FF F7 FA FD ]0x48E61EBC: BL     unk_F3B09AB4
+(app_process32_xposed[0xAACA8000])[41 F6 B5 41 ]0x48E61EC0: MOVW   R1, #0x1CB5
+(app_process32_xposed[0xAACA8000])[41 F6 D7 06 ]0x48E61EC4: MOVW   R6, #0x18D7
+(app_process32_xposed[0xAACA8000])[41 F6 B4 45 ]0x48E61EC8: MOVW   R5, #0x1CB4
+(app_process32_xposed[0xAACA8000])[49 F6 CF 54 ]0x48E61ECC: MOVW   R4, #0x9DCF
+(app_process32_xposed[0xAACA8000])[41 F2 27 08 ]0x48E61ED0: MOVW   R8, #0x1027
+(app_process32_xposed[0xAACA8000])[40 F6 CC 49 ]0x48E61ED4: MOVW   R9, #0xCCC
+(app_process32_xposed[0xAACA8000])[C3 F6 C7 41 ]0x48E61ED8: MOVT.W    R1, #0x3CC7
+(app_process32_xposed[0xAACA8000])[C7 F6 47 16 ]0x48E61EDC: MOVT.W    R6, #0x7947
+(app_process32_xposed[0xAACA8000])[C3 F6 C7 45 ]0x48E61EE0: MOVT.W    R5, #0x3CC7
+(app_process32_xposed[0xAACA8000])[CD F6 34 14 ]0x48E61EE4: MOVT.W    R4, #0xD934
+(app_process32_xposed[0xAACA8000])[C2 F2 55 28 ]0x48E61EE8: MOVT.W    R8, #0x2255
+(app_process32_xposed[0xAACA8000])[C6 F2 A2 19 ]0x48E61EEC: MOVT.W    R9, #0x61A2
+(app_process32_xposed[0xAACA8000])[1F E0 ]0x48E61EF0: B   loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[48 45 ]0x48E61F38: CMP    R0, R9
+(app_process32_xposed[0xAACA8000])[31 46 ]0x48E61F3A: MOV    R1, R6
+(app_process32_xposed[0xAACA8000])[F9 D0 ]0x48E61F3C: BEQ    loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[41 F6 B5 41 C3 F6 C7 41 ]0x48E61F3E: MOV    R1, #0x3CC71CB5
+(app_process32_xposed[0xAACA8000])[88 42 ]0x48E61F46: CMP    R0, R1
+(app_process32_xposed[0xAACA8000])[E6 D0 ]0x48E61F48: BEQ    loc_F3B09F18
+(app_process32_xposed[0xAACA8000])[01 20 ]0x48E61F18: MOVS   R0, #1
+(app_process32_xposed[0xAACA8000])[03 9A ]0x48E61F1A: LDR    R2, [SP,#0x40+var_34]
+(app_process32_xposed[0xAACA8000])[04 99 ]0x48E61F1C: LDR    R1, [SP,#0x40+var_30]
+(app_process32_xposed[0xAACA8000])[53 46 ]0x48E61F1E: MOV    R3, R10
+(app_process32_xposed[0xAACA8000])[00 90 ]0x48E61F20: STR    R0, [SP,#0x40+var_40]
+(app_process32_xposed[0xAACA8000])[01 98 ]0x48E61F22: LDR    R0, [SP,#0x40+var_3C]
+(app_process32_xposed[0xAACA8000])[FF F7 56 FD ]0x48E61F24: BL     unk_F3B099D4
+(app_process32_xposed[0xAACA8000])[49 F6 CF 51 ]0x48E61F28: MOVW   R1, #0x9DCF
+(app_process32_xposed[0xAACA8000])[05 90 ]0x48E61F2C: STR    R0, [SP,#0x40+var_2C]
+(app_process32_xposed[0xAACA8000])[CD F6 34 11 ]0x48E61F2E: MOVT.W    R1, #0xD934
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[A0 42 ]0x48E61F5A: CMP    R0, R4
+(app_process32_xposed[0xAACA8000])[D1 D0 ]0x48E61F5C: BEQ    loc_F3B09F02
+(app_process32_xposed[0xAACA8000])[03 98 ]0x48E61F02: LDR    R0, [SP,#0x40+var_34]
+(app_process32_xposed[0xAACA8000])[59 46 ]0x48E61F04: MOV    R1, R11
+(app_process32_xposed[0xAACA8000])[05 9A ]0x48E61F06: LDR    R2, [SP,#0x40+var_2C]
+(app_process32_xposed[0xAACA8000])[FF F7 F4 FC ]0x48E61F08: BL     unk_F3B098F4
+(app_process32_xposed[0xAACA8000])[03 98 ]0x48E61F0C: LDR    R0, [SP,#0x40+var_34]
+(app_process32_xposed[0xAACA8000])[41 46 ]0x48E61F0E: MOV    R1, R8
+(app_process32_xposed[0xAACA8000])[00 28 ]0x48E61F10: CMP    R0, #0
+(app_process32_xposed[0xAACA8000])[08 BF ]0x48E61F12: IT EQ
+(app_process32_xposed[0xAACA8000])[31 46 ]0x48E61F14: MOVEQ  R1, R6
+(app_process32_xposed[0xAACA8000])[0C E0 ]0x48E61F16: B   loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[A0 42 ]0x48E61F5A: CMP    R0, R4
+(app_process32_xposed[0xAACA8000])[D1 D0 ]0x48E61F5C: BEQ    loc_F3B09F02
+(app_process32_xposed[0xAACA8000])[40 45 ]0x48E61F5E: CMP    R0, R8
+(app_process32_xposed[0xAACA8000])[C7 D0 ]0x48E61F60: BEQ    loc_F3B09EF2
+(app_process32_xposed[0xAACA8000])[03 98 ]0x48E61EF2: LDR    R0, [SP,#0x40+var_34]
+(app_process32_xposed[0xAACA8000])[AD F7 3C EC ]0x48E61EF4: BLX    unk_F3AB7770
+(app_process32_xposed[0xAACA8000])[40 F6 CC 41 C6 F2 A2 11 ]0x48E61EF8: MOV    R1, #0x61A20CCC
+(app_process32_xposed[0xAACA8000])[17 E0 ]0x48E61F00: B   loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[48 45 ]0x48E61F38: CMP    R0, R9
+(app_process32_xposed[0xAACA8000])[31 46 ]0x48E61F3A: MOV    R1, R6
+(app_process32_xposed[0xAACA8000])[F9 D0 ]0x48E61F3C: BEQ    loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[48 45 ]0x48E61F38: CMP    R0, R9
+(app_process32_xposed[0xAACA8000])[31 46 ]0x48E61F3A: MOV    R1, R6
+(app_process32_xposed[0xAACA8000])[F9 D0 ]0x48E61F3C: BEQ    loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[41 F6 B5 41 C3 F6 C7 41 ]0x48E61F3E: MOV    R1, #0x3CC71CB5
+(app_process32_xposed[0xAACA8000])[88 42 ]0x48E61F46: CMP    R0, R1
+(app_process32_xposed[0xAACA8000])[E6 D0 ]0x48E61F48: BEQ    loc_F3B09F18
+(app_process32_xposed[0xAACA8000])[B0 42 ]0x48E61F4A: CMP    R0, R6
+(app_process32_xposed[0xAACA8000])[1D D1 ]0x48E61F4C: BNE    loc_F3B09F8A
+(app_process32_xposed[0xAACA8000])[4C F2 CF 11 ]0x48E61F4E: MOVW   R1, #0xC1CF
+(app_process32_xposed[0xAACA8000])[02 98 ]0x48E61F52: LDR    R0, [SP,#0x40+var_38]
+(app_process32_xposed[0xAACA8000])[C2 F6 F5 61 ]0x48E61F54: MOVT.W    R1, #0x2EF5
+(app_process32_xposed[0xAACA8000])[EB E7 ]0x48E61F58: B   loc_F3B09F32
+(app_process32_xposed[0xAACA8000])[08 46 ]0x48E61F32: MOV    R0, R1
+(app_process32_xposed[0xAACA8000])[A8 42 ]0x48E61F34: CMP    R0, R5
+(app_process32_xposed[0xAACA8000])[10 DD ]0x48E61F36: BLE    loc_F3B09F5A
+(app_process32_xposed[0xAACA8000])[A0 42 ]0x48E61F5A: CMP    R0, R4
+(app_process32_xposed[0xAACA8000])[D1 D0 ]0x48E61F5C: BEQ    loc_F3B09F02
+(app_process32_xposed[0xAACA8000])[40 45 ]0x48E61F5E: CMP    R0, R8
+(app_process32_xposed[0xAACA8000])[C7 D0 ]0x48E61F60: BEQ    loc_F3B09EF2
+(app_process32_xposed[0xAACA8000])[4C F2 CF 11 C2 F6 F5 61 ]0x48E61F62: MOV    R1, #0x2EF5C1CF
+(app_process32_xposed[0xAACA8000])[88 42 ]0x48E61F6A: CMP    R0, R1
+(app_process32_xposed[0xAACA8000])[0D D1 ]0x48E61F6C: BNE    loc_F3B09F8A
+(app_process32_xposed[0xAACA8000])[08 48 ]0x48E61F6E: LDR    R0, =(off_F3B77838 - 0xF3B09F76)
+(app_process32_xposed[0xAACA8000])[08 99 ]0x48E61F70: LDR    R1, [SP,#0x40+var_20]
+(app_process32_xposed[0xAACA8000])[78 44 ]0x48E61F72: ADD    R0, PC; off_F3B77838
+(app_process32_xposed[0xAACA8000])[00 68 ]0x48E61F74: LDR    R0, [R0]; __stack_chk_guard
+(app_process32_xposed[0xAACA8000])[00 68 ]0x48E61F76: LDR    R0, [R0]
+(app_process32_xposed[0xAACA8000])[40 1A ]0x48E61F78: SUBS   R0, R0, R1
+(app_process32_xposed[0xAACA8000])[01 BF ]0x48E61F7A: ITTTT EQ
+(app_process32_xposed[0xAACA8000])[00 20 ]0x48E61F7C: MOVEQ  R0, #0
+(app_process32_xposed[0xAACA8000])[09 B0 ]0x48E61F7E: ADDEQ  SP, SP, #0x24
+(app_process32_xposed[0xAACA8000])[BD E8 00 0F ]0x48E61F80: POPEQ.W   {R8-R11}
+(app_process32_xposed[0xAACA8000])[F0 BD ]0x48E61F84: POPEQ  {R4-R7,PC}
